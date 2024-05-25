@@ -8,4 +8,4 @@ QMTECH Artix7 Github
 <br>https://github.com/ChinaQMTECH/QMTECH_XC7A75T-100T-200T_Core_Board/tree/main/XC7A100T
 
 Project 0 - Switch Toggles LEDs
-              - Pressing SW2 lights D6. Releasing SW2 extinguishes D6.
+* Pressing SW2 lights D6. Releasing SW2 extinguishes D6.
