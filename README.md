@@ -1,8 +1,11 @@
 # Artix-7_Projects
 Artix-7_Projects
 
-These projects use the QMTECH Xilinx FPGA Artix7 Artix-7 XC7A100T DDR3 Core Board and the QMTECH Daughter Board with Rpi RP2040 from AliExpress. 
-* https://www.aliexpress.us/item/2255799983688709.html?spm=a2g0o.order_list.order_list_main.31.18a11802Av18Sl&gatewayAdapt=glo2usa 
+These projects use the following hardware from AliExpress.
+* QMTECH Xilinx FPGA Artix7 Artix-7 XC7A100T DDR3 Core Board 
+* https://www.aliexpress.us/item/2255799983688709.html?spm=a2g0o.order_list.order_list_main.31.18a11802Av18Sl&gatewayAdapt=glo2usa
+
+* QMTECH Daughter Board with Rpi RP2040
 * https://www.aliexpress.us/item/3256804908340025.html?spm=a2g0o.order_list.order_list_main.21.18a11802Av18Sl&gatewayAdapt=glo2usa
 
 QMTECH Artix7 Github
