@@ -15,3 +15,11 @@ QMTECH Artix7 Github
 Project 0 - Switch Toggles LEDs
 * Pressing SW2 lights D6. Releasing SW2 extinguishes D6.
   - https://photos.app.goo.gl/1gr5Epai7WcX8c126
+
+Project 1 - 24 Switches Toggle 24 LEDs
+* 8-Bit LED bars show status of 8-Bit DIP switches
+  - https://photos.app.goo.gl/pfgtzYZHUgSeG3YZ7
+
+Project 2 - 7-Segment Displays
+* Cycle through 0-F on all 4 7-Segment Displays
+  - WORKING
