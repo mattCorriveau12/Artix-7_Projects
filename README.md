@@ -25,7 +25,11 @@ Project 2 - 7-Segment Displays
 - Project_2a
   - Use Switches to Toggle Display Segments and Digits 1-4
     - https://photos.app.goo.gl/rNCxDajvwLQH4UdS7
-      
+
 - Project_2b
+  - Great a clock divider to be used for 7-Seg Display segment cycling
+    - https://photos.app.goo.gl/ztFPK7gWySNrTYqY8
+    
+- Project_2c
   - Cycle through 0-F on all 4 7-Segment Displays
     - WORKING
