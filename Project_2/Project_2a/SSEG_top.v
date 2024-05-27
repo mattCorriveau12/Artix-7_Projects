@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+//
 module SSEG_top(
     input wire [15:0] switches,
     output wire [7:0] sseg_cathode,
