@@ -23,7 +23,7 @@ Project 1 - 24 Switches Toggle 24 LEDs
 Project 2 - 7-Segment Displays
 
 - Project_2a
-  - Use Switches to Toggle Display Segments and Digits 1-4
+  - Use Switches to Toggle Display Segments on Digits 1-4 simultaneously
     - https://photos.app.goo.gl/rNCxDajvwLQH4UdS7
 
 - Project_2b
@@ -31,5 +31,9 @@ Project 2 - 7-Segment Displays
     - https://photos.app.goo.gl/ztFPK7gWySNrTYqY8
     
 - Project_2c
+  - Use Switches to Toggle Display Segments on Digits 1-4 individually
+    - https://photos.app.goo.gl/Dm8aUjjWqoYuQM9HA  
+  
+- Project_2d
   - Cycle through 0-F on all 4 7-Segment Displays
     - WORKING
