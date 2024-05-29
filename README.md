@@ -30,10 +30,14 @@ Project 2 - 7-Segment Displays
   - Great a clock divider to be used for 7-Seg Display segment cycling
     - https://photos.app.goo.gl/ztFPK7gWySNrTYqY8
     
-- Project_2c
+- Project_2c (marginal success - bits inverted and reversed)
   - Use Switches to Toggle Display Segments on Digits 1-4 individually
     - https://photos.app.goo.gl/Dm8aUjjWqoYuQM9HA  
-  
-- Project_2d
+
+- Project_2d (success)
+  - Use Switches to Toggle Display Segments on Digits 1-4 individually
+    - https://photos.app.goo.gl/9WG9ULwq9biyPEaF6
+      
+- Project_2e
   - Cycle through 0-F on all 4 7-Segment Displays
     - WORKING
