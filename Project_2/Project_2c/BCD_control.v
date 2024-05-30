@@ -16,31 +16,17 @@ module BCD_control(
     output reg [3:0] ONE_DIGIT = 0  //chose which input digit to be displayed
 );
 
-    reg [3:0] reversed_digit1;
-    reg [3:0] reversed_digit2;
-    reg [3:0] reversed_digit3;
-    reg [3:0] reversed_digit4;
-
-always @(*)
-    begin
-        reversed_digit1 = { digit1[0], digit1[1], digit1[2], digit1[3] };
-        reversed_digit2 = { digit2[0], digit2[1], digit2[2], digit2[3] };
-        reversed_digit3 = { digit3[0], digit3[1], digit3[2], digit3[3] };
-        reversed_digit4 = { digit4[0], digit4[1], digit4[2], digit4[3] };
-    end
-
-
 always@(refreshcounter)
 begin
    case (refreshcounter)
     2'd0:
-        ONE_DIGIT = ~reversed_digit1;     // digit 1 value (right digit)
+        ONE_DIGIT = digit1;     // digit 1 value (right digit)
     2'd1:
-        ONE_DIGIT = ~reversed_digit2;     // digit 2 value 
+        ONE_DIGIT = digit2;     // digit 2 value 
     2'd2:
-        ONE_DIGIT = ~reversed_digit3;     // digit 3 value 
+        ONE_DIGIT = digit3;     // digit 3 value 
     2'd3:
-        ONE_DIGIT = ~reversed_digit4;     // digit 4 value (left digit)
+        ONE_DIGIT = digit4;     // digit 4 value (left digit)
      
    endcase 
 end

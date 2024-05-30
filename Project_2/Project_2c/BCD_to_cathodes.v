@@ -36,23 +36,8 @@ begin
             sseg_cathode = 8'b10000000;   // eight
         4'd9:
             sseg_cathode = 8'b10010000;   // nine
-        4'd10:
-            sseg_cathode = 8'b10001000;   // hex A
-        4'd11:
-            sseg_cathode = 8'b10000011;   // hex B
-        4'd12:
-            sseg_cathode = 8'b11000110;   // hex C 
-        4'd13:
-            sseg_cathode = 8'b10100001;   // hex D 
-        4'd14:
-            sseg_cathode = 8'b10000110;   // hex E 
-        4'd15:
-            sseg_cathode = 8'b10001110;   // hex F 
-
-        // ***Add Decimal Points***    
-
-        /*default:
-            sseg_cathode = 8'b11000000;   // any other case*/
+        default:
+            sseg_cathode = 8'b11000000;   // any other case
         
         //************************************//
         //********** ADD DIGITS A - F ********//

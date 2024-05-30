@@ -44,11 +44,10 @@ sseg_cathode goes out to [top (output wire to constraint pins)]
 module top( 
     //input wire clk_50MHz,                           //*X* My addition *X* need to tell it where clk is coming from in the constraints
     input wire clk,
-    input wire [23:0] switches,
+    input wire [15:0] switches,
     //input wire [3:0] button,                      //swapped fo more switches
     output wire [3:0] sseg_anode,
-    output wire [7:0] sseg_cathode,
-    output wire [23:0] leds
+    output wire [7:0] sseg_cathode
     );
 
 wire refresh_clock;                                 //***Does refreshclock need an underscore?***
@@ -86,11 +85,6 @@ BCD_control BCD_control_wrapper(                    // *X* Need to Double check 
 BCD_to_cathodes BCD_to_cathodes_wrapper(            // *X* Need to Double check top vs module *X*
     .digit(ONE_DIGIT),                               // Pass ONE_DIGIT to digit (or other way around??)
     .sseg_cathode(sseg_cathode)
-);
-
-Switches_LEDs_Control Switches_LEDs_Control_wrapper(
-    .switches(switches),
-    .leds(leds)
 );
 
 endmodule
