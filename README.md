@@ -40,4 +40,5 @@ Project 2 - 7-Segment Displays
       
 - Project_2e
   - Cycle through 0-F on all 4 7-Segment Displays
-    - WORKING
+    - WORKING (partial success)
+    - Digits cycle at 1Hz (independent of switch positions) but not in the correct order. Need to ensure order is 0-F.
