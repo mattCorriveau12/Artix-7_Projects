@@ -1,6 +1,33 @@
 # Artix-7_Projects
 Artix-7_Projects
 
+**Progress Updates:**
+- At this point I've gotten a number of IO functioning. The FPGA properly reads the state of the input switches and displays the state of the switches via corresponding LED bars. The FPGA outputs data to the 7-Segment displays and the next step in the development process is to program the FPGA with some arithmatic/logic operating modes so that the FPGA can take data from switch input A and switch input B and output the result of those ALU functions to the 7-segment display.
+  - https://photos.app.goo.gl/9WG9ULwq9biyPEaF6
+
+**Project Goals**
+
+Develop a simple 4-function calculator deployable to both Xilinx Artix-7 and Altera Cyclone IV FPGAs.
+
+Planned Specs:
+
+Input Options to include:
+- Dip Switches 
+- Simple Push Buttons
+- Multiplexed Push Buttons
+- Keyboard Input over UART
+
+Output Options to Include:
+- LEDs
+- 7-Segment Displays
+- UART to PC Monitor 
+- UART to LED Display 
+- VGA to PC Monitor
+- SPI LED Display
+- I2C LED Display
+
+**Hardware Details and Revision History:**
+
 These projects use the following hardware from AliExpress.
 - QMTECH Xilinx FPGA Artix7 Artix-7 XC7A100T DDR3 Core Board 
   - https://www.aliexpress.us/item/2255799983688709.html?spm=a2g0o.order_list.order_list_main.31.18a11802Av18Sl&gatewayAdapt=glo2usa
