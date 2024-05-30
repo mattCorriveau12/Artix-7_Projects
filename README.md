@@ -26,7 +26,7 @@ Output Options to Include:
 - SPI LED Display
 - I2C LED Display
 
-**Hardware Details and Revision History:**
+**Hardware Details:**
 
 These projects use the following hardware from AliExpress.
 - QMTECH Xilinx FPGA Artix7 Artix-7 XC7A100T DDR3 Core Board 
@@ -38,6 +38,8 @@ These projects use the following hardware from AliExpress.
 QMTECH Artix7 Github
 - https://github.com/ChinaQMTECH/QMTECH_XC7A75T-100T-200T_Core_Board/tree/main/XC7A100T
 - https://github.com/ChinaQMTECH/DB_FPGA_with_RP2040?spm=a2g0o.detail.1000023.1.6f6dDBaeDBaeJl
+
+**Revision History:**
 
 Project 0 - Switch Toggles LEDs
 * Pressing SW2 lights D6. Releasing SW2 extinguishes D6.
