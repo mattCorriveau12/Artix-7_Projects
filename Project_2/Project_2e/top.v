@@ -47,14 +47,16 @@ module top(
     input wire [23:0] switches,
     output wire [3:0] sseg_anode,
     output wire [7:0] sseg_cathode,
-    output wire [23:0] leds
-    //output reg [3:0] dig_cycle
+    output wire [23:0] leds,
+    output wire divided_clk
     );
 
 wire refresh_clock;                                 
 wire [1:0] refreshcounter;
 wire [3:0] ONE_DIGIT;
 wire [3:0] dig_cycle;
+wire [3:0] not_reversed_dig_cycle;
+
                          
 
 // Wrapper for clock divider
@@ -80,10 +82,10 @@ BCD_control BCD_control_wrapper(
     .digit3(switches[11:8]),                       
     .digit4(switches[15:12]), */                       
 
-    .digit1(dig_cycle),
-    .digit2(dig_cycle),
-    .digit3(dig_cycle),                       
-    .digit4(dig_cycle),
+    .digit1(not_reversed_dig_cycle),
+    .digit2(not_reversed_dig_cycle),
+    .digit3(not_reversed_dig_cycle),                       
+    .digit4(not_reversed_dig_cycle),
 
     .refreshcounter(refreshcounter),
     .ONE_DIGIT(ONE_DIGIT)
@@ -106,7 +108,7 @@ oneHz_generator oneHz_generator_wrapper(
 
 cycle_digits cycle_digits_wrapper(
     .clk_1Hz(clk_1Hz),
-    .dig_cycle(dig_cycle)
+    .not_reversed_dig_cycle(not_reversed_dig_cycle)
 );
 
 
