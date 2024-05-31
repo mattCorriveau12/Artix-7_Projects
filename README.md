@@ -3,7 +3,7 @@
 
 **Progress Updates:**
 - At this point I've gotten a number of IO functioning. The FPGA properly reads the state of the input switches and displays the state of the switches via corresponding LED bars. The FPGA outputs data to the 7-Segment displays and the next step in the development process is to program the FPGA with some arithmatic/logic operating modes so that the FPGA can take data from switch input A and switch input B and output the result of those ALU functions to the 7-segment display.
-  - https://photos.app.goo.gl/ZjH9NgbedZftRWqP7
+  - https://photos.app.goo.gl/TwP19Rwzj86Ggr3LA
 
 **Project Goals**
 
@@ -70,3 +70,9 @@ Project 2 - 7-Segment Displays
 - Project_2e
   - Cycle through 0-F on all 4 7-Segment Displays @1Hz
     - https://photos.app.goo.gl/ZjH9NgbedZftRWqP7
+
+Project 3 - OpCodes
+
+- Project_3a
+  - 7-Seg Display Digits 1-3 Cycle. Switches 16-23 select OpCode and OpCode selected outputs to 7-Seg digit 4. 
+    - https://photos.app.goo.gl/TwP19Rwzj86Ggr3LA
