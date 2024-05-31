@@ -18,7 +18,7 @@
     #set_property -dict { PACKAGE_PIN T23 IOSTANDARD LVCMOS33} [get_ports {led6}];       #D6
 
     set_property -dict { PACKAGE_PIN R23 IOSTANDARD LVCMOS33} [get_ports {clk_1Hz}];       #D5
-    #set_property -dict { PACKAGE_PIN T23 IOSTANDARD LVCMOS33} [get_ports {not_clk_1Hz}];       #D6
+    set_property -dict { PACKAGE_PIN T23 IOSTANDARD LVCMOS33} [get_ports {divided_clk}];       #D6
 
 # Switches
 
