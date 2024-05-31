@@ -3,7 +3,7 @@
 
 **Progress Updates:**
 - At this point I've gotten a number of IO functioning. The FPGA properly reads the state of the input switches and displays the state of the switches via corresponding LED bars. The FPGA outputs data to the 7-Segment displays and the next step in the development process is to program the FPGA with some arithmatic/logic operating modes so that the FPGA can take data from switch input A and switch input B and output the result of those ALU functions to the 7-segment display.
-  - https://photos.app.goo.gl/DrX6mrmQ64r8Y6V89
+  - https://photos.app.goo.gl/ZjH9NgbedZftRWqP7
 
 **Project Goals**
 
@@ -59,15 +59,14 @@ Project 2 - 7-Segment Displays
   - Great a clock divider to be used for 7-Seg Display segment cycling
     - https://photos.app.goo.gl/ztFPK7gWySNrTYqY8
     
-- Project_2c (marginal success - bits inverted and reversed)
+- Project_2c 
   - Use Switches to Toggle Display Segments on Digits 1-4 individually
     - https://photos.app.goo.gl/Dm8aUjjWqoYuQM9HA  
 
-- Project_2d (success)
+- Project_2d 
   - Use Switches to Toggle Display Segments on Digits 1-4 individually
     - https://photos.app.goo.gl/9WG9ULwq9biyPEaF6
       
 - Project_2e
-  - Cycle through 0-F on all 4 7-Segment Displays
-    - WORKING (partial success)
-    - Digits cycle at 1Hz (independent of switch positions) but not in the correct order. Need to ensure order is 0-F.
+  - Cycle through 0-F on all 4 7-Segment Displays @1Hz
+    - https://photos.app.goo.gl/ZjH9NgbedZftRWqP7
